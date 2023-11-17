@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carworks</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+->
+    <link rel="stylesheet" href="art/art.css">
+
+</head>
+<body>
+    
+
+
+<header class="header">
+
+    <a href="#" class="logo">CARWORKS</a>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+             <li><a href="#cars">Cars</a></li>
+             <li><a href="#parts">Parts</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-shopping-cart" id="cart-btn">
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="parts/5.png" alt="">
+            <div class="content">
+                <h3>AUSTONE CSR72 155/70 R13</h3>
+                <div class="price">₱2,995.00 /-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="parts/6.png" alt="">
+            <div class="content">
+                <h3>KW Suspension Variant 3</h3>
+                <div class="price">₱130,995.00/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">Checkout</a>
+    </div>
+</header>
+<section class="home" id="home">
+
+    <div class="slide active" style="background:url(carimages/yeahyeah.png) no-repeat; background-size: cover; background-position: center;">
+        <div class="content">
+            <span>THE NEW 7</span>
+            <h3>THE ALL NEW BMW7 SERIES.</h3>
+            <a href="#" class="btn">REGISTER INTEREST</a>
+        </div>
+    </div>
+
+    <div class="slide" style="background:url(carimages/yeah2.png) no-repeat; background-size: cover; background-position: center;">
+        <div class="content">
+            <span>THE NEW X1</span>
+            <h3>LIVE YOUR DREAMS.</h3>
+            <a href="#" class="btn">REGISTER INTEREST</a>
+        </div>
+    </div>
+
+    <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+    <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+
+</section>
+
+
+<section class="about" id="about">
+
+<h1 class="heading">OUR FEATURED MODEL</h1>
+
+<div class="row">
+
+    <div class="image">
+        <img src="carimages/tae.png" alt="">
+    </div>
+
+    <div class="content">
+        <h3>BMW 318i Business.</h3>
+        <p>Yours at Php 1,590,000.</p>
+        <p> <i class="fas fa-check-circle"></i> 5-year BMW Warranty or 200,000 kilometers (whichever comes first) </p>
+        <a href="#"><button class="btn">Register your interest</button></a>
+    </div>
+
+</div>
+
+</section>
+
+
+<section class="features" id="features">
+
+<h1 class="heading">Step inside your comfort zone</h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-fire-alt"></i>
+        <h3>No haggle, no hasslet</h3>
+        <p>Our lowest price is always posted.</p>
+    </div>
+
+    <div class="box">
+        <i class="fa fa-car"></i>
+        <h3>Cars like new</h3>
+        <p>CarShop cars look and drive like new, but save you thousands.</p>
+    </div>
+
+    <div class="box">
+        <i class="fa fa-heart"></i>
+        <h3>1 in 50 make the cut</h3>
+        <p>We’re insanely selective. Only a fraction of pre-owned cars meets our standards.</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-clock"></i>
+        <h3>Forever? Yep.</h3>
+        <p>That’s how long our Lifetime Engine Guarantee lasts.</p>
+    </div>
+
+</div>
+
+</section>
+
+
+<section class="product" id="cars">
+
+<h1 class="heading">Our Awesome Cars</h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <div class="image">
+            <img src="car/1.png" alt="">
+        </div>
+        <div class="content">
+            <h3>BMW M240i xDrive Coupé</h3>
+            <p>5-year BMW Warranty or 200,000 kilometers (whichever comes first)</p>
+            <div class="price">Php 1,890,000/-</div>
+            <a href="#"><button class="btn">Register your interest</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="car/2.png" alt="">
+        </div>
+        <div class="content">
+            <h3>BMW X3 xDrive20d Business</h3>
+            <p>5-year BMW Warranty or 200,000 kilometers (whichever comes first)</p>
+            <div class="price">Php 2,890,000/-</div>
+            <a href="#"><button class="btn">Register your interest</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="car/3.png" alt="">
+        </div>
+        <div class="content">
+            <h3>BMW X7 xDrive40d Pure Excellence</h3>
+            <p>5-year BMW Warranty or 200,000 kilometers (whichever comes first)</p>
+            <div class="price">Php 890,000/-</div>
+            <a href="#"><button class="btn">Register your interest</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="car/4.png" alt="">
+        </div>
+        <div class="content">
+            <h3>BMW M4 Competition Coupé</h3>
+            <p>5-year BMW Warranty or 200,000 kilometers (whichever comes first)</p>
+            <div class="price">Php 2,000,000/-</div>
+            <a href="#"><button class="btn">Register your interest</button></a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+
+<section class="cars" id="parts">
+
+    <h1 class="heading">Car parts and acsessories</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="parts/1.png" alt="">
+                <div class="icons">
+        
+                </div>
+            </div>
+            <div class="content">
+                <h3>CARMATE Giga Yellow Power 2300K H11</h3>
+                <div class="price"> ₱1,995.00 <span>2,995.00</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="parts/2.png" alt="">
+                <div class="icons">
+                </div>
+            </div>
+            <div class="content">
+                <h3>Denso Compact Full Power Tone 1 SET</h3>
+                <div class="price"> ₱995.00 <span>₱1,995.00</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="parts/3.png" alt="">
+                <div class="icons">
+                </div>
+            </div>
+            <div class="content">
+                <h3>Coido Tire Inflator with Digital Gauge</h3>
+                <div class="price"> ₱2,995.00<span>₱3,995.00 </span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="parts/4.png" alt="">
+                <div class="icons">
+                </div>
+            </div>
+            <div class="content">
+                <h3>ATS GTR Street Dark Grey 9.0X19/h3>
+                <div class="price"> ₱3,000.00 <span>₱5,995.00</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="parts/5.png" alt="">
+                <div class="icons">
+
+                </div>
+            </div>
+            <div class="content">
+                <h3>AUSTONE CSR72 155/70 R13</h3>
+                <div class="price"> ₱2,995.00 <span>₱3,995.00</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="parts/6.png">
+                <div class="icons">
+                </div>
+            </div>
+            <div class="content">
+                <h3>KW Suspension Variant 3 </h3>
+                <div class="price"> ₱130,995.00 <span>₱149,995.00</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="contact" id="contact">
+
+<form action="">
+
+    <input class="box" type="text" placeholder="name">
+    <input class="box" type="email" placeholder="your email">
+    <input class="box" type="number" placeholder="your number">
+
+    <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+
+    <input type="submit" class="btn" value="send message">
+
+</form>
+
+<div class="content">
+
+    <h3>Contact With Us</h3>
+    <div class="icons"> <i class="fas fa-map-marker-alt"></i> <p>Philippines</p> </div>
+    <div class="icons"> <i class="fas fa-globe"></i> <p>www.carworkz.com</p> </div>
+    <div class="icons"> <i class="fas fa-phone"></i> <p>0999-999-9999</p> </div>
+
+</div>
+
+</section>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="code/code.js"></script>
+<script src="code/script.js"></script>
+
+
+
+</body>
+</html>
